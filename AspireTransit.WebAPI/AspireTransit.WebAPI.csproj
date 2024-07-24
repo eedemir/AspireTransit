@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ba0444f5-cc06-4b2c-b4dc-e4c8c4011e65</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.2.3" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireTransit.Contracts\AspireTransit.Contracts.csproj" />
+    <ProjectReference Include="..\AspireTransit.ServiceDefaults\AspireTransit.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

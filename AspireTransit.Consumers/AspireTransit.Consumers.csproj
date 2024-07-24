@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <UserSecretsId>dotnet-AspireTransit.Consumers-f22af337-0e66-4eff-8271-7c55966ca450</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.2.3" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireTransit.Contracts\AspireTransit.Contracts.csproj" />
+    <ProjectReference Include="..\AspireTransit.ServiceDefaults\AspireTransit.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>

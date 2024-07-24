@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireTransit.AppHost", "AspireTransit.AppHost\AspireTransit.AppHost.csproj", "{C6A97303-D832-4D25-9C3D-D1B9F9922248}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireTransit.ServiceDefaults", "AspireTransit.ServiceDefaults\AspireTransit.ServiceDefaults.csproj", "{20C940B5-F869-4756-BFA7-7B988124B7E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireTransit.Consumers", "AspireTransit.Consumers\AspireTransit.Consumers.csproj", "{39965C25-F78A-470B-9828-31C637582F46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireTransit.Contracts", "AspireTransit.Contracts\AspireTransit.Contracts.csproj", "{281680B3-0630-4172-A09B-46BAB0BDB00A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireTransit.WebAPI", "AspireTransit.WebAPI\AspireTransit.WebAPI.csproj", "{50552A3D-9644-4CD5-9D9D-B62DCE7131BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EB0BF83-7736-47A5-9E7D-8C1D348A8E14}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A97303-D832-4D25-9C3D-D1B9F9922248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A97303-D832-4D25-9C3D-D1B9F9922248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A97303-D832-4D25-9C3D-D1B9F9922248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A97303-D832-4D25-9C3D-D1B9F9922248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C940B5-F869-4756-BFA7-7B988124B7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C940B5-F869-4756-BFA7-7B988124B7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C940B5-F869-4756-BFA7-7B988124B7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C940B5-F869-4756-BFA7-7B988124B7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39965C25-F78A-470B-9828-31C637582F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39965C25-F78A-470B-9828-31C637582F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39965C25-F78A-470B-9828-31C637582F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39965C25-F78A-470B-9828-31C637582F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281680B3-0630-4172-A09B-46BAB0BDB00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281680B3-0630-4172-A09B-46BAB0BDB00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281680B3-0630-4172-A09B-46BAB0BDB00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281680B3-0630-4172-A09B-46BAB0BDB00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50552A3D-9644-4CD5-9D9D-B62DCE7131BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50552A3D-9644-4CD5-9D9D-B62DCE7131BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50552A3D-9644-4CD5-9D9D-B62DCE7131BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50552A3D-9644-4CD5-9D9D-B62DCE7131BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1566788-EA02-4F1D-8AF8-2A2733A85573}
+	EndGlobalSection
+EndGlobal
